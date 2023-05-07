@@ -15,7 +15,6 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 
     const posts = getSortedPostsData() //deduped!
     const { postId } = params
-
     const post = posts.find(post => post.id === postId)
 
     if (!post) {
@@ -43,9 +42,9 @@ export default async function Post ({ params }: { params: { postId: string } }) 
     const pubDate = getFormattedDate(date)
 
     return (
-        <main className="px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
-            <h1 className="text-3xl mt-4 mb-0">{title}</h1>
-            <p className="mt-0">
+        <main className="px-6 prose prose-xl prose-slate dark:prose-invert mx-auto bg-white">
+            <h1 className="text-3xl mt-4 mb-0 text-gray-600">{title}</h1>
+            <p className="mt-0 text-gray-600">
                 {pubDate}
             </p>
             <article>
