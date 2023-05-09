@@ -1,4 +1,5 @@
-import Posts from "./components/Posts"
+import Posts from "../app/posts/[postId]/page"
+import NielSite from "./test"
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
         Hello and welcome to Niel's blog
       </p> */}
 
-        <Posts />
+        {/* <Posts /> */}
+        <NielSite />
 
       </div>
     </main>
