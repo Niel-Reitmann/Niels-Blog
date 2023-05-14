@@ -110,7 +110,7 @@ export default function Home() {
                 <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
                   <img
                     className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
-                    src="/images/SmLogo.jpeg"
+                    src="/images/Flaming Galah Logo.png"
                     alt="Project 2"
                   />
                 </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
                   <img
                     className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
-                    src="/images/SmLogo.jpeg"
+                    src="/images/Travelator1by1.png"
                     alt="Project 3"
                   />
                 </div>
@@ -161,7 +161,7 @@ export default function Home() {
                 <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
                   <img
                     className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
-                    src="/images/SmLogo.jpeg"
+                    src="/images/UQIESlogo.png"
                     alt="Project 3"
                   />
                 </div>
