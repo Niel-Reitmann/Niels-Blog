@@ -12,6 +12,13 @@
     background: white !important;
 }
 
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+    background: white !important;
+    font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue !important;
+}
+
 /* a {
     color: gray !important;
     text-decoration: none !important;
