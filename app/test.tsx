@@ -5,7 +5,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div className="container w-full min-h-screen text-gray-500 flex justify-center items-center">
-      <div className="wrapper flex flex-col items-center justify-center min-h-screen h-full w-960 gap-6 md:gap-10 px-4 md:px-0 overflow-x-hidden">
+      <div className="wrapper flex flex-col justify-center min-h-screen h-full w-960 gap-6 md:gap-10 px-4 md:px-0 overflow-x-hidden">
         <div className="introheader text-4xl font-light">
           My name is Niel Reitmann. I'm currently a Growth Associate at{" "}
           <a
@@ -46,7 +46,7 @@ export default function Home() {
           </a>
           .
         </div>
-        <div className="flex flex-wrap flex-row justify-start items-center gap-24">
+        <div className="flex flex-wrap flex-row justify-start items-left gap-12">
           <a className="text-gray-500" href="/story.html">
             <div className="inline-flex relative items-center bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               Story
@@ -76,100 +76,101 @@ export default function Home() {
             </div>
           </a>
         </div>
-      </div>
-      <div className="w-full flex flex-wrap justify-between gap-16">
-        <div className="text-gray-500 w-48 flex justify-center items-center">
-          <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
-            <img
-              className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
-              src="/images/SmLogo.jpeg"
-              alt="Project 1"
-            />
-          </div>
-          <div className="flex flex-col flex-grow-0 flex-shrink-0 flex-basis-60%">
-            <p className="text-base font-normal my-1">Startmate</p>
-            <p className="text-base font-normal my-1">
-              The epicentre for startup ambition across Australia and New
-              Zealand.{" "}
-            </p>
-          </div>
-          <div className="viewbutton flex flex-col justify-center items-center w-full flex-grow-0 flex-shrink-0 flex-basis-20">
-            <a href="https://www.startmate.com/?utm_source=Google&utm_medium=NielWebsite&utm_campaign=NielWebsite">
-              <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
-                View
-              </div>
-            </a>
-          </div>
-        </div>
 
-        <div className="text-gray-500 w-48 flex justify-center items-center">
-          <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
-            <img
-              className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
-              src="/images/SmLogo.jpeg"
-              alt="Project 2"
-            />
+        <div className="w-full flex flex-wrap justify-between gap-4">
+          <div className="text-gray-500 w-48 flex justify-center items-center">
+            <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+              <img
+                className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
+                src="/images/SmLogo.jpeg"
+                alt="Project 1"
+              />
+            </div>
+            <div className="flex flex-col flex-grow-0 flex-basis-60%">
+              <p className="text-base font-normal my-1">Startmate</p>
+              <p className="text-base font-normal my-1">
+                The epicentre for startup ambition across Australia and New
+                Zealand.{" "}
+              </p>
+            </div>
+            <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+              <a href="https://www.startmate.com/?utm_source=Google&utm_medium=NielWebsite&utm_campaign=NielWebsite">
+                <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
+                  View
+                </div>
+              </a>
+            </div>
           </div>
-          <div className="flex flex-col flex-grow-0 flex-shrink-0 flex-basis-60%">
-            <p className="text-base font-normal my-1">Flaming Galahs</p>
-            <p className="text-base font-normal my-1">
-              A technology collective exclusively for Australia's university
-              students.
-            </p>
-          </div>
-          <div className="viewbutton flex flex-col justify-center items-center w-full flex-grow-0 flex-shrink-0 flex-basis-20">
-            <a href="https://galah.community/">
-              <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
-                View
-              </div>
-            </a>
-          </div>
-        </div>
 
-        <div className="text-gray-500 w-48 flex justify-center items-center">
-          <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
-            <img
-              className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
-              src="/images/SmLogo.jpeg"
-              alt="Project 3"
-            />
+          <div className="text-gray-500 w-48 flex justify-center items-center">
+            <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+              <img
+                className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
+                src="/images/SmLogo.jpeg"
+                alt="Project 2"
+              />
+            </div>
+            <div className="flex flex-col flex-grow-0 flex-basis-60%">
+              <p className="text-base font-normal my-1">Flaming Galahs</p>
+              <p className="text-base font-normal my-1">
+                A technology collective exclusively for Australia's university
+                students.
+              </p>
+            </div>
+            <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+              <a href="https://galah.community/">
+                <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
+                  View
+                </div>
+              </a>
+            </div>
           </div>
-          <div className="flex flex-col flex-grow-0 flex-shrink-0 flex-basis-60%">
-            <p className="text-base font-normal my-1">Travelator</p>
-            <p className="text-base font-normal my-1">
-              Pioneering the future of tourism influencer marketing.
-            </p>
-          </div>
-          <div className="viewbutton flex flex-col justify-center items-center w-full flex-grow-0 flex-shrink-0 flex-basis-20">
-            <a href="https://youtu.be/2agY80N9i4w">
-              <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
-                View
-              </div>
-            </a>
-          </div>
-        </div>
 
-        <div className="text-gray-500 w-48 flex justify-center items-center">
-          <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
-            <img
-              className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
-              src="/images/SmLogo.jpeg"
-              alt="Project 4"
-            />
+          <div className="text-gray-500 w-48 flex justify-center items-center">
+            <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+              <img
+                className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
+                src="/images/SmLogo.jpeg"
+                alt="Project 3"
+              />
+            </div>
+            <div className="flex flex-col flex-grow-0 flex-basis-60%">
+              <p className="text-base font-normal my-1">Travelator</p>
+              <p className="text-base font-normal my-1">
+                Pioneering the future of tourism influencer marketing.
+              </p>
+            </div>
+            <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+              <a href="https://youtu.be/2agY80N9i4w">
+                <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
+                  View
+                </div>
+              </a>
+            </div>
           </div>
-          <div className="flex flex-col flex-grow-0 flex-shrink-0 flex-basis-60%">
-            <p className="text-base font-normal my-1">UQIES</p>
-            <p className="text-base font-normal my-1">
-              The most influential entrepreneurship society at The University of
-              Queensland.
-            </p>
-          </div>
-          <div className="viewbutton flex flex-col justify-center items-center w-full flex-grow-0 flex-shrink-0 flex-basis-20">
-            <a href="https://www.facebook.com/uqiesociety/">
-              <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
-                View
-              </div>
-            </a>
+
+          <div className="text-gray-500 w-48 flex justify-center items-center">
+            <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+              <img
+                className="h-75 w-75 border-2 border-gray-400 rounded-2xl"
+                src="/images/SmLogo.jpeg"
+                alt="Project 3"
+              />
+            </div>
+            <div className="flex flex-col flex-grow-0 flex-basis-60%">
+              <p className="text-base font-normal my-1">UQIES</p>
+              <p className="text-base font-normal my-1">
+                The most influential entrepreneurship society at The University
+                of Queensland.
+              </p>
+            </div>
+            <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+              <a href="https://www.facebook.com/uqiesociety/">
+                <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
+                  View
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
