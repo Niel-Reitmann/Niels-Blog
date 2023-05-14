@@ -19,6 +19,11 @@ body {
     font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue !important;
 }
 
+img {
+    height: 75px !important;
+    width: 75px !important;
+}
+
 /* a {
     color: gray !important;
     text-decoration: none !important;
