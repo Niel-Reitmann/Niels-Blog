@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap flex-row justify-start items-left gap-12">
           <a className="text-gray-500" href="/story.html">
-            <div className="inline-flex relative items-center bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               Story
             </div>
           </a>
@@ -56,22 +56,22 @@ export default function Home() {
             className="text-gray-500"
             href="https://www.linkedin.com/in/niel-reitmann/"
           >
-            <div className="inline-flex relative items-center bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               LinkedIn
             </div>
           </a>
           <a className="text-gray-500" href="https://twitter.com/NielReitmann">
-            <div className="inline-flex relative items-center bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               Twitter
             </div>
           </a>
           <a className="text-gray-500" href="https://github.com/Niel-Reitmann">
-            <div className="inline-flex relative items-center bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               GitHub
             </div>
           </a>
           <a className="text-gray-500" href="/blogpage">
-            <div className="inline-flex relative items-center bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               Blog
             </div>
           </a>
@@ -89,8 +89,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base font-normal my-1">Startmate</p>
-                  <p className="text-base font-normal my-1">
+                  <p className="text-base lg:text-lg">Startmate</p>
+                  <p className="text-sm">
                     The epicentre for startup ambition across Australia and New
                     Zealand.{" "}
                   </p>
@@ -115,8 +115,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base font-normal my-1">Flaming Galahs</p>
-                  <p className="text-base font-normal my-1">
+                  <p className="text-base lg:text-lg">Flaming Galahs</p>
+                  <p className="text-sm">
                     A technology collective exclusively for Australia's
                     university students.
                   </p>
@@ -141,8 +141,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base font-normal my-1">Travelator</p>
-                  <p className="text-base font-normal my-1">
+                  <p className="text-base lg:text-lg">Travelator</p>
+                  <p className="text-sm">
                     Pioneering the future of tourism influencer marketing.
                   </p>
                 </div>
@@ -166,8 +166,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base font-normal my-1">UQIES</p>
-                  <p className="text-base font-normal my-1">
+                  <p className="text-base lg:text-lg">UQIES</p>
+                  <p className="text-sm">
                     The most influential entrepreneurship society at The
                     University of Queensland.
                   </p>
