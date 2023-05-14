@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container w-full min-h-screen text-gray-500 flex justify-center items-center">
       <div className="wrapper flex flex-col justify-center min-h-screen h-full w-960 gap-6 md:gap-10 px-4 md:px-0 overflow-x-hidden">
-        <div className="introheader text-4xl font-light">
+        <div className="introheader text-5xl font-light">
           My name is Niel Reitmann. I'm currently a Growth Associate at{" "}
           <a
             href="https://www.startmate.com/?utm_source=Google&utm_medium=NielWebsite&utm_campaign=NielWebsite"
@@ -77,7 +77,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="w-full flex flex-wrap justify-between gap-4">
+        <div className="w-full flex flex-wrap justify-between gap-">
           <div className="flex flex-wrap">
             <div className="flex w-full md:w-1/2">
               <div className="text-gray-500 w-48% flex justify-center items-center">

@@ -1,9 +1,9 @@
 ---
-title: '1 month learnings'
-date: '2023-05-07'
+title: "1 month learnings"
+date: "2023-05-07"
 ---
 
-Three years ago I was in Cape Town, South Africa. One year ago I was just starting my degree and moving to Brisbane for college. 
+Three years ago I was in Cape Town, South Africa. One year ago I was just starting my degree and moving to Brisbane for college.
 
 At the beginning of this year I found myself in Sydney with a weekend of accommodation, no plan for work or where I would stay, after choosing not to enrol in any second year courses.
 
@@ -17,7 +17,7 @@ I’ve skewed this more towards students since that’s where I’m best positio
 
 What I’ve seen in most ambitious students was that they had a fairly clear idea of what pathway makes sense to create a decent career.
 
-I think the problem with this surety is that as a student you are operating out of a very limited understanding of available options. You are adding structure that will impact your whole life based on the information you’ve gathered between the ages of 0 and 18-25. 
+I think the problem with this surety is that as a student you are operating out of a very limited understanding of available options. You are adding structure that will impact your whole life based on the information you’ve gathered between the ages of 0 and 18-25.
 
 The alternative is to preserve optionality where possible. This includes being very careful what narratives you choose to internalise. An example of a narrative might be that corporate is bad, startups are good. Uni is bad, work is good. I’m non-technical. I’m technical. Etc.
 
@@ -25,7 +25,7 @@ An analogy;
 
 If you are going on a trip and have your exact timeline and destination schedule planned, you essentially get rid of all the other potential options that you might have come across with less rigidity. Some of these options you don't even know exist but could be the best.
 
-Rather, every decision should, in a perfect world, end in a net positive of new doors opened (more overall exposure, not less). 
+Rather, every decision should, in a perfect world, end in a net positive of new doors opened (more overall exposure, not less).
 
 When you are young and your understanding is as limited as it’ll ever be. Be bold, don’t buy too deeply into many narratives, and try not to let your environment determine your direction.
 
@@ -33,21 +33,21 @@ When you are young and your understanding is as limited as it’ll ever be. Be b
 
 I hesitate to mention this one just yet because I’m not sure I’ve reached a satisfactory understanding. The question here that I’ve been asking myself is basically this; is it necessary to have a constant obsession for your work/career or should you maintain balance with things like exercise, going out, etc.
 
-Can be summarised as; does greatness only come from extremes? 
+Can be summarised as; does greatness only come from extremes?
 
 After lots of discussions I’ve reached a point where I see this as less black and white.
 
-If you genuinely feel like working on some sort of project and it’s a weekend, if that’s going to give you energy, do it. Don’t let the abstract idea of it being a weekend take that away from you. You’ll probably end up feeling even more shit because you didn’t do it. 
+If you genuinely feel like working on some sort of project and it’s a weekend, if that’s going to give you energy, do it. Don’t let the abstract idea of it being a weekend take that away from you. You’ll probably end up feeling even more shit because you didn’t do it.
 
-I think what adds difficulty to this topic is discipline. How do you know that if you don’t want to do something, it’s not just out of laziness? I reckon that is something you just have to figure out overtime by understanding yourself and building decent systems into your life. 
+I think what adds difficulty to this topic is discipline. How do you know that if you don’t want to do something, it’s not just out of laziness? I reckon that is something you just have to figure out overtime by understanding yourself and building decent systems into your life.
 
 **Imposter syndrome**
 
 Imposter syndrome is a fun one. I knew it would be there but I didn't quite understand its extent. My way of thinking about this is short but does the trick for me.
 
-If imposter syndrome isn’t there, you’re probably not in the right environment to experience accelerated growth. 
+If imposter syndrome isn’t there, you’re probably not in the right environment to experience accelerated growth.
 
-This doesn’t mean I think you need to always be in this position. I think people can be just as content and satisfied with life without playing the ambition game. But if you are playing the game, you probably want to always be feeling a level of imposter syndrome. 
+This doesn’t mean I think you need to always be in this position. I think people can be just as content and satisfied with life without playing the ambition game. But if you are playing the game, you probably want to always be feeling a level of imposter syndrome.
 
 If you aren’t, it could be a signal of stagnation/slow growth.
 
@@ -55,13 +55,13 @@ If you aren’t, it could be a signal of stagnation/slow growth.
 
 Understanding the history of a startup, the people who work there, the reason why certain things have been done, the strategy, the past strategies, the original founders, failures even the past employees and leadership, all matter.
 
-Don’t just aim to understand your domain, but realise that all these pieces work together and will form your foundation to start building and adding what’s closest to unique value. 
+Don’t just aim to understand your domain, but realise that all these pieces work together and will form your foundation to start building and adding what’s closest to unique value.
 
-This takes a long time to do, but I’ve seen that it’s worth it if you want to do things well. 
+This takes a long time to do, but I’ve seen that it’s worth it if you want to do things well.
 
 **Who you come home to matters**
 
-This one is a little bit different. I’m fortunate to be staying with a group of incredible people. People who I can learn a lot from but also enjoyable people to be around. 
+This one is a little bit different. I’m fortunate to be staying with a group of incredible people. People who I can learn a lot from but also enjoyable people to be around.
 
 This opportunity made itself available because I knew one of them through Twitter, and another through my Flaming Galahs project (surface area of luck in action).
 
@@ -93,6 +93,6 @@ Game theory, mimesis, contrarianism, AI, whatever. Try not to be so plugged into
 
 Try to see when things are driven by ego or the bandwagon effect.
 
-I hope you were able to take something out of this, even if that was just to think a little more deeply on a topic. 
+I hope you were able to take something out of this, even if that was just to think a little more deeply on a topic.
 
-Thanks for reading 
+Thanks for reading
