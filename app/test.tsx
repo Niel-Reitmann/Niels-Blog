@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap flex-row justify-start items-left gap-12">
           <a className="text-gray-500" href="/story.html">
-            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="social-btn inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               Story
             </div>
           </a>
@@ -56,32 +56,32 @@ export default function Home() {
             className="text-gray-500"
             href="https://www.linkedin.com/in/niel-reitmann/"
           >
-            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="social-btn inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               LinkedIn
             </div>
           </a>
           <a className="text-gray-500" href="https://twitter.com/NielReitmann">
-            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="social-btn inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               Twitter
             </div>
           </a>
           <a className="text-gray-500" href="https://github.com/Niel-Reitmann">
-            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="social-btn inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               GitHub
             </div>
           </a>
           <a className="text-gray-500" href="/blogpage">
-            <div className="inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
+            <div className="social-btn inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
               Blog
             </div>
           </a>
         </div>
 
-        <div className="w-full flex flex-wrap justify-between gap-">
-          <div className="flex flex-wrap">
-            <div className="flex w-full md:w-1/2">
-              <div className="text-gray-500 w-48% flex justify-center items-center">
-                <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+        <div className="projects w-full flex flex-wrap justify-between gap-">
+          <div className="projects flex flex-wrap">
+            <div className="projects flex w-full md:w-1/2">
+              <div className="projects text-gray-500 w-48% flex justify-center items-center">
+                <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                   <img
                     className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
                     src="/images/SmLogo.jpeg"
@@ -89,8 +89,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base lg:text-lg">Startmate</p>
-                  <p className="text-sm">
+                  <p className="projtitle text-base lg:text-lg">Startmate</p>
+                  <p className="projdesc text-sm">
                     The epicentre for startup ambition across Australia and New
                     Zealand.{" "}
                   </p>
@@ -107,7 +107,7 @@ export default function Home() {
 
             <div className="flex w-full md:w-1/2">
               <div className="text-gray-500 w-48% flex justify-center items-center">
-                <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+                <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                   <img
                     className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
                     src="/images/Flaming Galah Logo.png"
@@ -115,8 +115,10 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base lg:text-lg">Flaming Galahs</p>
-                  <p className="text-sm">
+                  <p className="projtitle text-base lg:text-lg">
+                    Flaming Galahs
+                  </p>
+                  <p className="projdesc text-sm">
                     A technology collective exclusively for Australia's
                     university students.
                   </p>
@@ -133,7 +135,7 @@ export default function Home() {
 
             <div className="flex w-full md:w-1/2">
               <div className="text-gray-500 w-48% flex justify-center items-center">
-                <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+                <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                   <img
                     className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
                     src="/images/Travelator1by1.png"
@@ -141,8 +143,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base lg:text-lg">Travelator</p>
-                  <p className="text-sm">
+                  <p className="projtitle text-base lg:text-lg">Travelator</p>
+                  <p className="projdesc text-sm">
                     Pioneering the future of tourism influencer marketing.
                   </p>
                 </div>
@@ -158,7 +160,7 @@ export default function Home() {
 
             <div className="flex w-full md:w-1/2">
               <div className="text-gray-500 w-48% flex justify-center items-center">
-                <div className="h-full flex justify-start items-center min-w-100 flex-1-0-20">
+                <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                   <img
                     className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
                     src="/images/UQIESlogo.png"
@@ -166,8 +168,8 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="text-base lg:text-lg">UQIES</p>
-                  <p className="text-sm">
+                  <p className="projtitle text-base lg:text-lg">UQIES</p>
+                  <p className="projdesc text-sm">
                     The most influential entrepreneurship society at The
                     University of Queensland.
                   </p>
