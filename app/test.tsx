@@ -78,7 +78,7 @@ export default function Home() {
         </div>
 
         <div className="projects w-full flex flex-wrap justify-between gap-">
-          <div className="projects flex flex-wrap">
+          <div className="projects flex flex-wrap gap-4">
             <div className="projects flex w-full md:w-1/2">
               <div className="projects text-gray-500 w-48% flex justify-center items-center">
                 <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
