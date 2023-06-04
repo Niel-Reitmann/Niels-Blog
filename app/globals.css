@@ -5,17 +5,15 @@
 
 * {
     color: #808080;
-    background-color: white !important;
     font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue !important;
     padding: 0px;
     margin: 0px;
-    background: white !important;
 }
 
 body {
     padding: 0px;
     margin: 0px;
-    background: white !important;
+    background-color: white;
     font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue !important;
 }
 
@@ -41,6 +39,10 @@ img {
 
 /* Other project medias */
 
+.wrapper{
+    width: 62%;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -50,6 +52,7 @@ img {
         padding-top: 24px;
         min-height: 96vh;
         height: 100%;
+        
 
     }
 
