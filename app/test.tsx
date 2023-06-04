@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className="w-full min-h-screen text-gray-500 flex flex-col justify-center items-center bg-white">
-        <div className="wrapper flex flex-col justify-center items-center min-h-screen px-5 gap-6 md:gap-10 md:px-0 overflow-x-hidden">
+        <div className="wrapper flex flex-col justify-center items-center min-h-screen w-100 px-5 gap-6 md:gap-10 md:px-0 overflow-x-hidden">
           <div className="introheader text-5xl font-light">
             My name is Niel Reitmann. I'm currently a Growth Associate at{" "}
             <a
