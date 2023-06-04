@@ -4,8 +4,8 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container w-full min-h-screen text-gray-500 flex justify-center items-center">
-      <div className="wrapper flex flex-col justify-center min-h-screen h-full w-960 gap-6 md:gap-10 px-4 md:px-0 overflow-x-hidden">
+    <div className="container w-full min-h-screen text-gray-500 flex flex-col justify-center items-center">
+      <div className="wrapper flex flex-col justify-center items-center min-h-screen px-5 gap-6 md:gap-10 md:px-0 overflow-x-hidden">
         <div className="introheader text-5xl font-light">
           My name is Niel Reitmann. I'm currently a Growth Associate at{" "}
           <a
@@ -77,7 +77,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="projects w-full flex flex-wrap justify-between">
+        <div className="projects w-full flex flex-wrap justify-between align-items">
           <div className="projects flex flex-wrap gap-4">
             <div className="projects flex w-full md:w-1/2">
               <div className="projects text-gray-500 w-48% flex justify-center items-center">
