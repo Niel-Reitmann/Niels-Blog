@@ -77,7 +77,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="projects w-full flex flex-wrap justify-between gap-">
+        <div className="projects w-full flex flex-wrap justify-between">
           <div className="projects flex flex-wrap gap-4">
             <div className="projects flex w-full md:w-1/2">
               <div className="projects text-gray-500 w-48% flex justify-center items-center">
@@ -89,13 +89,15 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="projtitle text-base lg:text-lg">Startmate</p>
-                  <p className="projdesc text-sm">
+                  <p className="projtitle m-1 text-base lg:text-lg">
+                    Startmate
+                  </p>
+                  <p className="projdesc m-1 text-sm">
                     The epicentre for startup ambition across Australia and New
                     Zealand.{" "}
                   </p>
                 </div>
-                <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+                <div className="viewbutton flex justify-center items-center flex-grow-0 flex-basis-20 text-sm">
                   <a href="https://www.startmate.com/?utm_source=Google&utm_medium=NielWebsite&utm_campaign=NielWebsite">
                     <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
                       View
@@ -115,15 +117,15 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="projtitle text-base lg:text-lg">
+                  <p className="projtitle m-1 text-base lg:text-lg">
                     Flaming Galahs
                   </p>
-                  <p className="projdesc text-sm">
+                  <p className="projdesc m-1 text-sm">
                     A technology collective exclusively for Australia's
                     university students.
                   </p>
                 </div>
-                <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+                <div className="viewbutton flex justify-center items-center flex-grow-0 flex-basis-20 text-sm">
                   <a href="https://galah.community/">
                     <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
                       View
@@ -143,12 +145,14 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="projtitle text-base lg:text-lg">Travelator</p>
-                  <p className="projdesc text-sm">
+                  <p className="projtitle m-1 text-base lg:text-lg">
+                    Travelator
+                  </p>
+                  <p className="projdesc m-1 text-sm">
                     Pioneering the future of tourism influencer marketing.
                   </p>
                 </div>
-                <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+                <div className="viewbutton flex justify-center items-center flex-grow-0 flex-basis-20 text-sm">
                   <a href="https://youtu.be/2agY80N9i4w">
                     <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
                       View
@@ -168,13 +172,13 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex flex-col flex-grow-0 flex-basis-60%">
-                  <p className="projtitle text-base lg:text-lg">UQIES</p>
-                  <p className="projdesc text-sm">
+                  <p className="projtitle m-1 text-base lg:text-lg">UQIES</p>
+                  <p className="projdesc m-1 text-sm">
                     The most influential entrepreneurship society at The
                     University of Queensland.
                   </p>
                 </div>
-                <div className="viewbutton flex justify-center items-center w-full flex-grow-0 flex-basis-20 text-sm">
+                <div className="viewbutton flex justify-center items-center flex-grow-0 flex-basis-20 text-sm">
                   <a href="https://www.facebook.com/uqiesociety/">
                     <div className="btnsecondary inline-flex items-center relative rounded-md border border-gray-300 shadow-sm px-3 py-1 transition duration-200 ease-in-out hover:bg-gradient-to-r hover:from-gray-200 hover:via-gray-100 hover:to-gray-200 hover:transform">
                       View
