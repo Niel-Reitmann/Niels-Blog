@@ -26,6 +26,10 @@ img {
     padding: 0px;
 }
 
+strong {
+    color: black !important;
+}
+
 /* a {
     color: gray !important;
     text-decoration: none !important;

@@ -47,7 +47,7 @@ export default function Home() {
             </a>
             .
           </div>
-          <div className="flex flex-wrap flex-row justify-start items-left gap-5 sm:gap-12 bg-red-100">
+          <div className="flex flex-wrap flex-row justify-start items-left gap-5 sm:gap-12">
             <a className="text-gray-500" href="/story.html">
               <div className="social-btn inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
                 Story
@@ -85,8 +85,8 @@ export default function Home() {
           </div>
 
           <div className="projects w-full flex flex-wrap justify-between align-items">
-            <div className="flex flex-wrap gap-4 bg-red-100 justify-between">
-              <div className="flex md:w-45 w-100 bg-red-200">
+            <div className="flex flex-wrap gap-4 justify-between">
+              <div className="flex md:w-45 w-100">
                 <div className=" text-gray-500 flex justify-center items-center">
                   <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                     <img
