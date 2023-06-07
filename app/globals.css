@@ -22,6 +22,10 @@ img {
     width: 75px !important;
 }
 
+.project {
+    padding: 0px;
+}
+
 /* a {
     color: gray !important;
     text-decoration: none !important;
@@ -74,10 +78,6 @@ img {
         padding-bottom: 0;
         font-size: 28px;
       }
-
-      .project {
-        width: 100%;
-    }
 
 
     a {

@@ -6,7 +6,15 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '960': '960px',
+        '45': '45%',
+      },
+      spacing: {
+        '5': '10px',
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

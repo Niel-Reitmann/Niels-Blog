@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className="w-full min-h-screen text-gray-500 flex flex-col justify-center items-center bg-white">
-        <div className="wrapper flex flex-col justify-center items-center min-h-screen w-100 px-5 gap-6 md:gap-10 md:px-0 overflow-x-hidden">
+        <div className="wrapper flex flex-col justify-center min-h-screen w-960 px-5 gap-6 md:gap-10 md:px-0 overflow-x-hidden">
           <div className="introheader text-5xl font-light">
             My name is Niel Reitmann. I'm currently a Growth Associate at{" "}
             <a
@@ -47,7 +47,7 @@ export default function Home() {
             </a>
             .
           </div>
-          <div className="flex flex-wrap flex-row justify-start items-left gap-12">
+          <div className="flex flex-wrap flex-row justify-start items-left gap-5 sm:gap-12 bg-red-100">
             <a className="text-gray-500" href="/story.html">
               <div className="social-btn inline-flex relative items-center font-normal rounded-md shadow-sm px-6 py-1 transition-colors duration-200 ease-in">
                 Story
@@ -85,9 +85,9 @@ export default function Home() {
           </div>
 
           <div className="projects w-full flex flex-wrap justify-between align-items">
-            <div className="projects flex flex-wrap gap-4">
-              <div className="projects flex w-full md:w-1/2">
-                <div className="projects text-gray-500 w-48% flex justify-center items-center">
+            <div className="flex flex-wrap gap-4 bg-red-100 justify-between">
+              <div className="flex md:w-45 w-100 bg-red-200">
+                <div className=" text-gray-500 flex justify-center items-center">
                   <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                     <img
                       className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
@@ -114,8 +114,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex w-full md:w-1/2">
-                <div className="text-gray-500 w-48% flex justify-center items-center">
+              <div className="flex w-full md:w-45 w-100">
+                <div className="text-gray-500 flex justify-center items-center">
                   <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                     <img
                       className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
@@ -142,8 +142,8 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex w-full md:w-1/2">
-                <div className="text-gray-500 w-48% flex justify-center items-center">
+              <div className="flex w-full md:w-45 w-100">
+                <div className="text-gray-500 flex justify-center items-center">
                   <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
                     <img
                       className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
@@ -169,16 +169,16 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex w-full md:w-1/2">
-                <div className="text-gray-500 w-48% flex justify-center items-center">
-                  <div className="project h-full flex justify-start items-center min-w-100 flex-1-0-20">
+              <div className="flex w-full md:w-45 w-100">
+                <div className="text-gray-500 flex justify-center items-center">
+                  <div className="project h-full flex justify-start items-center min-w-100 flex-basis-0 sm:flex-1-0-10">
                     <img
                       className="h-75 w-75 max-w-none border-2 border-gray-400 rounded-2xl"
                       src="/images/UQIESlogo.png"
                       alt="Project 3"
                     />
                   </div>
-                  <div className="flex flex-col flex-grow-0 flex-basis-60%">
+                  <div className="flex flex-col flex-grow-0 flex-basis-60">
                     <p className="projtitle m-1 text-base lg:text-lg">UQIES</p>
                     <p className="projdesc m-1 text-sm">
                       The most influential entrepreneurship society at The
